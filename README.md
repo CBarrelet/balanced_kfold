@@ -1,13 +1,3 @@
-```bash
-python detect.py --source 0  # webcam
-                          img.jpg  # image
-                          vid.mp4  # video
-                          path/  # directory
-                          path/*.jpg  # glob
-                          'https://youtu.be/Zgi9g1ksQHc'  # YouTube
-                          'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
-```
-
 <h1>Balanced kfold</h1>
 
 The implementation of "UNO: Underwater Non-Natural Object dataset" k-folding.
@@ -34,6 +24,16 @@ conda create --name balanced_kfold --file requirements.txt
 <h3>K-folding results of the paper</h3>
 ```bash
 python balancedKFolding.py --input_dir dummy_UNO_dataset --output_dir uno_kfold --k 5 --ite 100000000
+```
+
+```bash
+python detect.py --source 0  # webcam
+                          img.jpg  # image
+                          vid.mp4  # video
+                          path/  # directory
+                          path/*.jpg  # glob
+                          'https://youtu.be/Zgi9g1ksQHc'  # YouTube
+                          'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
 ```
 
 <h3>K-folding results for random video dataset</h3>
