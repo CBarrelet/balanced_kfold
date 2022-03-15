@@ -27,13 +27,10 @@ python balancedKFolding.py --input_dir dummy_UNO_dataset --output_dir uno_kfold 
 ```
 
 ```bash
-python detect.py --source 0  # webcam
-                          img.jpg  # image
-                          vid.mp4  # video
-                          path/  # directory
-                          path/*.jpg  # glob
-                          'https://youtu.be/Zgi9g1ksQHc'  # YouTube
-                          'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
+python balancedKFolding.py --input_dir dummy_UNO_dataset
+                          --output_dir uno_kfold
+                          --k 5 # Number of folds
+                          --ite 100000000 # Number of iterations
 ```
 
 <h3>K-folding results for random video dataset</h3>
