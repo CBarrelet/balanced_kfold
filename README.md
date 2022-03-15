@@ -23,9 +23,9 @@ conda create --name balanced_kfold --file requirements.txt
 <h2>Usage</h2>
 
 <h3>K-folding results of the paper</h3>
-```bash
+'''bash
 python balancedKFolding.py --input_dir dummy_UNO_dataset --output_dir uno_kfold --k 5 --ite 100000000
-```
+'''
 
 <h3>K-folding results for random video dataset</h3>
 1. Generate a random video dataset<br>
