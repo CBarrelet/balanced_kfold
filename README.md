@@ -23,10 +23,6 @@ conda create --name balanced_kfold --file requirements.txt
 
 <h3>K-folding results of the paper</h3>
 ```bash
-python balancedKFolding.py --input_dir dummy_UNO_dataset --output_dir uno_kfold --k 5 --ite 100000000
-```
-
-```bash
 python balancedKFolding.py --input_dir dummy_UNO_dataset
                           --output_dir uno_kfold
                           --k 5 # Number of folds
