@@ -2,6 +2,9 @@
 
 The implementation of "UNO: Underwater Non-Natural Object dataset" k-folding.
 
+Paper link: (Soon available)<br>
+Website link: (Soon available)
+
 <h2>Details</h2>
 
 A script that splits a video dataset into k well-balanced folds for object detector nested cross-validation purposes.
