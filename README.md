@@ -16,12 +16,14 @@ Soon available.
 <br>
 
 <h2>Prerequisite</h2>
+
 ```bash
 conda create --name balanced_kfold --file requirements.txt
 ```
 <h2>Usage</h2>
 
 <h3>K-folding results of the paper</h3>
+
 ```bash
 python balancedKFolding.py --input_dir dummy_UNO_dataset
                           --output_dir uno_kfold
@@ -30,6 +32,7 @@ python balancedKFolding.py --input_dir dummy_UNO_dataset
 ```
 
 <h3>K-folding results for random video dataset</h3>
+
 1. Generate a random video dataset<br>
 ```bash
 python generateDummyVideoDataset.py --video_nr 100 --frames_mean 50 --frames_std 30 --labels_mean 10 --labels_std 30
