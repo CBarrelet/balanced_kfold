@@ -35,7 +35,11 @@ python balancedKFolding.py --input_dir dummy_UNO_dataset
 
 1. Generate a random video dataset<br>
 ```bash
-python generateDummyVideoDataset.py --video_nr 100 --frames_mean 50 --frames_std 30 --labels_mean 10 --labels_std 30
+python generateDummyVideoDataset.py --video_nr 100    # Number of videos
+                                    --frames_mean 50  # Frames mean per video
+                                    --frames_std 30   # Frames standard deviation per video
+                                    --labels_mean 10  # Labels mean per frame
+                                    --labels_std 30   # Labels standard deviation per frame
 ```
 2. Create k-folds<br>
 ```bash
