@@ -16,7 +16,7 @@ Soon available.
 <br>
 
 <h2>Prerequisite</h2>
-## Install python dependencies
+### Install python dependencies
 ```bash
 conda create --name balanced_kfold --file requirements.txt
 ```
