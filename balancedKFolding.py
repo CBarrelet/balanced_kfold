@@ -153,7 +153,7 @@ def createFolds(opt, dataset, data_array):
 	os.makedirs(images_dir, exist_ok = True)
 	os.makedirs(labels_dir, exist_ok = True)
 
-	video_paths = glob(opt.uno_dir + '/*')
+	video_paths = glob(opt.intput_dir + '/*')
 	video_paths.sort()
 
 	for video_path in video_paths:
@@ -238,7 +238,7 @@ def createFolds(opt, dataset, data_array):
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
-	parser.add_argument('--input_dir', type=str, default='dummy_video_dataset/', help='Dummy raw UNO dataset directory path') # 'dummy_UNO_data' in the paper
+	parser.add_argument('--input_dir', type=str, default='dummy_video_dataset/', help='Dummy raw UNO dataset directory path') # 'dummy_UNO_dataset' in the paper
 	parser.add_argument('--output_dir', type=str, default='kfold_output', help='Output path directory')
 	parser.add_argument('--delete_output_dir', action='store_true', help='Delete the output directory if aleardy exists')
 	parser.add_argument('--k', type=int, default=5, help='Folds number') # 5 in the paper
