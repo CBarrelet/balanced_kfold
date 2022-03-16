@@ -11,7 +11,7 @@ A script that splits a video dataset into k well-balanced folds for object detec
 
 The goal is to split n videos into k groups, such as the total number of frames and the total number of labels of each group are approximatively equal. Moreover, every frame belonging to one video has to be part of a unique group.
 
-At this time, it only supports the YOLOv5 label format (https://github.com/ultralytics/yolov5/issues/2293) with a unique class.
+At this time, it only supports the <a href="https://github.com/ultralytics/yolov5/issues/2293">YOLOv5 label format</a> with a unique class.
 
 <h2>Citation</h2>
 Soon available.
