@@ -58,7 +58,7 @@ termcolor=1.1.0=py_2
 tk=8.6.10=hbc83047_0
 tomli=2.0.1=pyhd8ed1ab_0
 tqdm=4.63.0=pyhd8ed1ab_0
-wheel=0.35.1=py_0
+wheel
 xz=5.2.5=h7b6447c_0
 zlib=1.2.11=h7b6447c_3
 zstd=1.4.4=h0b5b093_3
