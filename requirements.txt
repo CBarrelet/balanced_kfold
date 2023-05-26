@@ -3,8 +3,8 @@
 # platform: linux-64
 attrs=21.4.0=pyhd8ed1ab_0
 blas=1.0=mkl
-ca-certificates=2021.10.8=ha878542_0
-certifi=2021.10.8=py38h578d9bd_1
+ca-certificates
+certifi
 colorama=0.4.4=pyh9f0ad1d_0
 contextlib2=21.6.0=pyhd8ed1ab_0
 cycler=0.11.0=pyhd8ed1ab_0
@@ -33,15 +33,15 @@ mkl_fft=1.3.1=py38hd3c417c_0
 mkl_random=1.2.2=py38h51133e4_0
 mock=4.0.3=py38h578d9bd_2
 ncurses=6.2=he6710b0_1
-numpy=1.21.2=py38h20f2e39_0
-numpy-base=1.21.2=py38h79a1101_0
+numpy
+numpy-base
 olefile=0.46=py_0
 openssl=1.1.1m=h7f8727e_0
 packaging=21.3=pyhd8ed1ab_0
 path=16.4.0=py38h578d9bd_0
 path.py=12.5.0=0
 pillow
-pip=20.2.4=py38_0
+pip
 pluggy=1.0.0=py38h578d9bd_2
 py
 pyparsing=3.0.7=pyhd8ed1ab_0
