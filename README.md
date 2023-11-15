@@ -2,7 +2,8 @@
 
 The implementation of "UNO: Underwater Non-Natural Object dataset" k-folding.
 
-Paper link: <a href="https://www.lirmm.fr/~chaumont/publications/CVAUI2022_ICPR2022_Barrelet_Chaumont_Subsol_Creuze_Gouttefarde_From_TrashCan_to_UNO.pdf"  target="_blank" rel="noopener noreferrer"> <b>From TrashCan to UNO: Deriving an Underwater Image Dataset To Get a More Consistent and Balanced Version</b> <br>
+Paper link: <a href="https://www.lirmm.fr/~chaumont/publications/CVAUI2022_ICPR2022_Barrelet_Chaumont_Subsol_Creuze_Gouttefarde_From_TrashCan_to_UNO.pdf"  target="_blank" rel="noopener noreferrer"> <b>From TrashCan to UNO: Deriving an Underwater Image Dataset To Get a More Consistent and Balanced Version</b> 
+<br>
 Website link: <a href="https://www.lirmm.fr/uno/" target="_blank" rel="noopener noreferrer"> <b>https://www.lirmm.fr/uno/</b>
 
 <h2>Details</h2>
